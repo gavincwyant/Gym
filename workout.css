@@ -1,0 +1,56 @@
+.main{
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.main div{
+    padding: 20px;
+}
+
+.main div button{
+    width: 360px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    transition: .5s;
+}
+
+.main div button:hover{
+    width: 400px;
+}
+
+.push button{
+    background: linear-gradient(to right, lightblue, darkblue);
+    color: white;
+}
+
+.push h1{
+    margin-left: 90px;
+    border: 4px solid ;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.pull button{
+    background: linear-gradient(to right, violet, purple);
+    color: white;
+}
+
+.leg button{
+    background: linear-gradient(to right, lightgreen, darkgreen);
+    color: white;
+}
+
+.custom button{
+    background: linear-gradient(to right, lightyellow, darkorange);
+    color: white;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}

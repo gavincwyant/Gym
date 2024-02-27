@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>GCW GYM</title>
+        <link rel = "stylesheet" href = "login.css">
+        
+    </head>
+
+    <section class = "main">
+        <div class = "login">
+            <h1>LOG IN:</h1>
+            <form id = "login_form">
+                <input type = "text" id = "username" placeholder = "username"><br>
+                <input type = "text" id = "password" placeholder = "password"><br>
+                <input type = "submit" name = "submit" placeholder="submit" id = "login_form_submit" onclick = "return auth()"><br>
+            </form>
+        
+            <script>
+                
+
+                function auth(){
+                    const email = document.getElementById("username").value;
+                    const password = document.getElementById("password").value;
+                    if (email === "admin" && password === "admin"){
+                        alert("login successful");
+                        window.location.assign("index.html");
+                        return false;
+                    }
+                    else{
+                        alert('login unsuccessful');
+                    }
+                }
+                
+
+            </script>
+
+        </div>
+    </section>
+
+
+</html>
